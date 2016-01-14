@@ -85,8 +85,8 @@ ondertitel{
 img {
     width: auto;
     display: block;
-    height: 50;
-    margin-right: auto;
+    height: auto;
+    margin-right: 70px;
     margin-left: auto;
     margin-bottom: 30px;
     margin-top: 20px;
