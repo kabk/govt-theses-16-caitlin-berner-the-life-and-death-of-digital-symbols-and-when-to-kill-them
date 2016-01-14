@@ -1,91 +1,262 @@
-body {
-	margin:30px 0px;
-	padding:0px;
-	text-align:left;
-	font-family:Helvetica, Arial, sans-serif;
-	font-size:20px;
-	line-height:23px;
-	letter-spacing:1px;
-	text-decoration: none;
+body {	
+	background-color:white;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+    font-size: 22px;
+	margin-left: 0px;
+	font-family: 'Noto Sans', sans-serif;
+	margin-top: 50px;
+	letter-spacing: 1px;
+	font-weight: 100;
+}
+
+nav{
+	width: 250px;
+	position: fixed;
+	font-size: 19px;
+	line-height: 28px;
+	left: 10px;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: Helvetica, sans-serif;
+	letter-spacing: 0.04em;
+	top: 15px;
+	z-index: 999;
+	
+	
+}
+
+footer{
+	font-family: Helvetica, sans-serif;
+	position: fixed;
+	bottom: 15px;
+	text-align: left;
+	left: 10px;
+	width: 250px;
+	font-size: 10px;
+	line-height: 18px;
+	left: 10px;
+	text-align: left;
+	text-transform: uppercase;;
+	letter-spacing: 0.04em;
+	padding-left: 15px;
+	
+}
+
+titel{
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	display: inherit;
+	text-align: center;
+	color: white;
+	margin-top: -400px;
+	border: solid white 2px;
+	font-size: 50px;
+	width: 60%;
+	margin-bottom: 0px;
+	line-height: 68px;
+	text-transform: uppercase;;
+	letter-spacing: 0.04em;
+	margin-right:auto;
+    margin-left: auto;
+}
+
+ondertitel{
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	display: block;
+	color: white;
+	text-align: center;
+	border: solid white 2px;
+	margin-top: 70px;
+	width: 70%;
+	font-size: 40px;
+	margin-bottom: -10px;
+	line-height: 60px;
+	text-transform: uppercase;;
+	letter-spacing: 0.04em;
+	transform: rotate(-10deg);
+	margin-right:auto;
+    margin-left: auto;
+}
+
+img {
+    width:auto;
+    display: block;
+    height: auto;
+    margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    position: inherit;
+}
+
+
+article {
+	margin-top: 50px;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 19px;
+	color: black;
+	z-index: 1;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 8px;
+    color: white;
 
 }
 
-body {
-	background-color: #FFF;
+
+h1, h2, h3, h4,h5, h6 {
+    margin: 10px 180px;
+	font-family: 'Helvetica', sans-serif;
+	color: black;
+	margin: 0px auto;
+	width: 50%;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	margin-top: 50px;
 }
-a:link {
-	color: #000;
-	text-decoration: none;
+
+h1{
+	margin-bottom: 200px;
+	margin-top: -100px;
+	letter-spacing: 0.05em;
+	font-weight: bold;
+	padding-right: 70px;
+	font-size: 60px;
+
 }
-a:visited {
-	color: #000;
-	text-decoration: none;
+
+h2{
+	margin-top: 28px;
+	letter-spacing: 0.06em;
+	text-indent: -35px;
 }
-a:hover {
-	color: #000;
+
+
+h3{
+	letter-spacing: 0.04em;
+	text-indent: -35px;
+}
+
+h4{
+	letter-spacing: 0.04em;
+	font-size: 19px;
+	color: black;
+	
+}
+
+h6{
+	letter-spacing: 0.04em;
+	font-size: 40px;
+	color: black;
+	transform:rotateZ(-15deg);
+	text-align: right;
+	width: 100%;
+	margin-top: 150px;
+	margin-bottom: -200px;
+
+	
+}
+
+
+
+ul, ol {
+    padding-left: 5px;
+    z-index: 999;
+}
+
+
+/* Sections */
+
+section {
+  width: 100%;
+  padding-top: 1px;
+  background: #e8e5e5;
+  margin-bottom: -20px;
+}
+section:nth-child(even) {
+  background: #1fc9f3;
+}
+section:nth-child(odd) {
+  background: #ffffff;
+}
+.sections section:first-child {
+  margin-top: 10px;
+}
+section.active {}
+
+
+
+blockquote {
+	font-family: 'Note Sans', sans-serif;
+	font-size: 19px;
+	margin: 0px auto;
+	margin-bottom: 30px;
+	width: 40%;
+	font-style: italic;
+	line-height: 1.45;
+	position: relative;
+	color: black;
+}
+
+
+a{
+	color:black;
 	text-decoration: none;
+	cursor: url(http://payload194.cargocollective.com/1/6/220116/6186237/cursor.gif), auto;
+	
+}
+
+
+
+a:hover{
+	color: black;	
+	border-bottom: 2px solid black;
+} 
+a:visited{
+	color:black;
 }
 a:active {
-	color: #000;
-	text-decoration: none;
-}
-.style {
-	font-style: normal;
-	font-weight: normal;
-	text-transform: none;
-	color: #000;
-	text-decoration: none;
-	background-color: #FFF;
-	letter-spacing: 20pt;
-	text-align: left;
-	height: auto;
-	width: auto;
+    color: gray;
 }
 
-
-
-
-#infos {
-  width:450px;
-text-align:left;
-margin:auto;
-position:fixed;
-margin-left:40px;
-top:40px;
-z-index:5000;
-
+p {
+	font-size: 20px;
+    margin: 0px auto;
+	width: 60%;
+	line-height: 1.6;
+	margin-bottom: 25px;
+	
+	
 }
 
-#infos2 {
-position:absolute;
-width:450px;
-top:40px;
-left:240px;
-z-index:5000;
+/* This makes the images scale to the full width of the page */
+
+
+
+#headerimg {
+  position: relative;   
+  width: 100%; 
+  margin-top: -200px;
 }
 
-#infos3 {
-position:absolute;
-width:450px;
-top:40px;
-left: 240px;
-z-index:5000;
-}
-
-#infos4 {
-position:absolute;
-width:850px;
-top:80px;
-left: 40px;
-z-index:5000;
+#headerimg img { 
+  margin: auto; 
+  min-width: 100%;
 }
 
 #about {
     width: 450px;
     right: -150px;
     top: 55%;
-    margin-top: 120px;
-    text-align: right;
+    margin-top: 0px;
+    text-align: left;
     position: absolute;
     z-index: 5000;
     -ms-transform: rotate(90deg); /* IE 9 */
@@ -95,45 +266,414 @@ z-index:5000;
 
 }
 
-#blog{
-position:fixed;
-bottom:20px;
-right:40px;
 
+img.noscale {
+    width: inherit;
 }
 
-.item {
-	height:50%x;
-	margin: 20px;
-	float:left;
-	overflow:auto; 
-	position:relative;
+#footnote_gedicht {
+	display: inline;
+	z-index: 1000;
+	font-size: 15px;
+	width: 350px;
 }
 
-#about{
-	position:fixed;
-	margin-left:0px;
-	text-align:left;
-	top:110px;
+
+a[rel="footnote"] {
+    border-bottom: none;
+    line-height: 0;
+}
+
+
+
+@media screen and (min-width: 701px) and (max-width: 1000px){
+body {
+    padding: 0px 0px 0px 0px;	
+	background-color: #ffffff;
+}
+
+header {
+    font-size: 10px;
+	font-family: Helvetica, sans-serif;
+	margin-left: 0px;
+}
+
+nav{
+	width: 250px;
+	position: fixed;
+	font-size: 10px;
+	line-height: 8px;
+	left: 0px;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: Helvetica, sans-serif;
+	letter-spacing: 0.04em;
+	top: 10px;
 	
-	}
-#container {
-	margin-left:20px;
-	margin-top:20px;
-	height:50%;
 }
 
-#texts {
-	height:395px;
-	float:left;
+footer{
+	display: block;
+	position: fixed;
+	bottom: 10px;
+	left: 110px;
 }
 
-footer { 
+img {
+    width:70%;
+    display: block;
+    height: auto;
+    margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-right: 80px;
+}
 
-	font-size:10px;
-	line-height:23px;
-	letter-spacing:0.5px;
+titel{
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	display: inherit;
+	text-align: center;
+	color: white;
+	margin-top: -230px;
+	border: solid white 2px;
+	font-size: 40px;
+	width: 60%;
+	margin-bottom: 0px;
+	line-height: 48px;
+	text-transform: uppercase;;
+	letter-spacing: 0.04em;
+	transform: rotate(6deg);
+	margin-right:auto;
+    margin-left: auto;
+}
+
+ondertitel{
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	display: block;
+	color: white;
+	text-align: center;
+	border: solid white 2px;
+	margin-top: 50px;
+	width: 70%;
+	font-size: 25px;
+	margin-bottom: -10px;
+	line-height: 35px;
+	text-transform: uppercase;;
+	letter-spacing: 0.04em;
+	transform: rotate(-6deg);
+	margin-right:auto;
+    margin-left: auto;
+}
+
+
+
+
+article {
+	margin-top: 25px;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 18px;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+
+h1, h2, h3, h4,h5, h6 {
+	font-family: 'Helvetica', sans-serif;
+	color: black;
+	margin: 0px auto;
+	width: 80%;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	margin-top: 50px;
+}
+
+
+h1{
+	font-size: 25px;
+	color: black;
+	width: 50%;
+	
+}
+
+h2{
+	margin-top: 0px;
+	font-size: 20px;
+	color: black;
+	width: 50%;
+	
+}
+
+h3{
+	font-size: 15px;
+	color: black;
+	width: 50%;
+	margin-bottom: 30px;
+}
+
+blockquote {
+	font-family: 'Note Sans', sans-serif;
+	font-size: 16px;
+	margin: 0px auto;
+	margin-bottom: 30px;
+	width: 50%;
+	font-style: italic;
+	line-height: 1.6;
+	position: relative;
+	color: #000000;
+}
+
+
+
+
+ul, ol {
+    padding-left: 20px;
+}
+
+
+a{
+	color:black;
 	text-decoration: none;
-
 }
 
+
+a:hover{
+	color: black;	
+	border-bottom: 1px solid black;
+} 
+a:visited{
+	color:black;
+}
+a:active {
+    color: gray;
+}
+
+p {
+	font-size: 16px;
+    margin-top: 0;
+	line-height: 1.8;
+	margin-bottom: 25px;
+	margin-right: 80px;
+	width: 70%;
+	
+	
+}
+
+
+
+	
+}
+
+
+
+
+/* test tweede media, tussengrootte */
+
+
+@media screen and (max-width: 700px) {
+body {
+    padding: 0px 0px 0px 0px;	
+	background-color: #ffffff;
+}
+
+header {
+    font-size: 10px;
+	font-family: 'Noto Sans', sans-serif;
+	margin-left: 0px;
+}
+
+nav{
+	display: none;
+	position: absolute;
+	width: 120px;
+	margin-top:0px;
+	font-size: 15px;
+	color: black;
+	font-family: Helvetica, sans-serif;
+}
+
+footer{
+display: none;
+}
+
+img {
+    width:100%;
+    display: block;
+    height: auto;
+    margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+titel{
+	font-family: Helvetica, sans-serif;
+	display: inherit;
+	text-align: center;
+	color: white;
+	font-weight: 200;
+	margin-top: -90px;
+	border: solid white 1px;
+	font-size: 18px;
+	width: 90%;
+	margin-bottom: 0px;
+	line-height: 22px;
+	text-transform: uppercase;;
+	letter-spacing: 0.04em;
+	transform: rotate(2deg);
+	margin-right:auto;
+    margin-left: auto;
+}
+
+ondertitel{
+	font-family: Helvetica, sans-serif;
+	font-weight: 200;
+	display: block;
+	color: white;
+	text-align: center;
+	border: solid white 1px;
+	margin-top: 10px;
+	width: 60%;
+	font-size: 15px;
+	margin-bottom: -10px;
+	line-height: 17px;
+	text-transform: uppercase;;
+	letter-spacing: 0.04em;
+	transform: rotate(-3deg);
+	margin-right:auto;
+    margin-left: auto;
+}
+
+
+article {
+	margin-top: 25px;
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+li {
+	color: black;
+    margin-bottom: 8px;
+}
+
+
+h1, h2, h3, h4,h5, h6 {
+    margin: 20px 55px;
+	font-family: Helvetica, sans-serif;
+	color: black;
+}
+
+
+h1{
+	font-size: 25px;
+	color: black;
+	width: 70%;
+	margin-left: 20px;
+	
+}
+
+h2{
+	margin-top: 0px;
+	font-size: 20px;
+	color: black;
+	width: 80%;
+	margin-bottom: -20px;
+	margin-top: 10px;
+	
+}
+
+h3{
+	font-size: 15px;
+	color: black;
+	width: 80%;
+	
+}
+
+blockquote {
+	font-family: 'Note Sans', sans-serif;
+	font-size: 12px;
+	margin: 0px auto;
+	margin-bottom: 30px;
+	width: 70%;
+	font-style: italic;
+	line-height: 1.6;
+	position: relative;
+	color: #000000;
+}
+
+
+
+
+ul, ol {
+    padding-left: 20px;
+}
+
+
+a{
+	color:black;
+	text-decoration: none;
+}
+
+a:hover{
+	color: black;	
+} 
+a:visited{
+	color:black;
+}
+a:active {
+    color: gray;
+}
+
+p {
+	font-size: 12px;
+    margin-top: 0;
+	line-height: 1.8;
+	margin-bottom: 25px;
+	margin-left: 30px;
+	width: 90%;
+	
+	
+}
+
+
+	
+}
+
+/* eind test */
+
+/* @media only screen and (min-width: 46em) {
+   
+} */
+
+@media only print {
+	body{
+		background-color: none;
+	}
+    /**
+     * When printing, the header is useful but it doesnâ€™t need
+     * to be so big
+     */
+    header h1, h2{
+        font-size: 18pt;
+        font-weight: normal;
+    } 
+	article {
+		margin-left: 200px;
+		margin-right: -300px;
+		font-size: 12pt;
+	}
+    /* And the navigation we donâ€™t need */
+    nav {
+        display: none;
+    }
+	footer{
+		font-size: 8pt;
+		line-height: 1.2;
+	}
+}
