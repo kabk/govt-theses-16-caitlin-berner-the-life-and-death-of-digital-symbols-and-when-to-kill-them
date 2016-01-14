@@ -83,10 +83,10 @@ ondertitel{
 }
 
 img {
-    width:auto;
+    width: auto;
     display: block;
     height: auto;
-    margin-right:auto;
+    margin-right: auto;
     margin-left: auto;
     margin-bottom: 30px;
     margin-top: 20px;
@@ -229,7 +229,7 @@ a:active {
 p {
 	font-size: 20px;
     margin: 0px auto;
-	width: 60%;
+	width: 50%;
 	line-height: 1.6;
 	margin-bottom: 25px;
 	
