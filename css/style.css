@@ -1,12 +1,12 @@
 body {	
 	background-color:white;
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 }
 
 header {
     font-size: 22px;
 	margin-left: 0px;
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 	margin-top: 50px;
 	letter-spacing: 1px;
 	font-weight: 100;
@@ -209,7 +209,7 @@ blockquote {
 a{
 	color:black;
 	text-decoration: none;
-	cursor: url(http://payload194.cargocollective.com/1/6/220116/6186237/cursor.gif), auto;
+	cursor: url("images/cursor.png");
 	
 }
 
