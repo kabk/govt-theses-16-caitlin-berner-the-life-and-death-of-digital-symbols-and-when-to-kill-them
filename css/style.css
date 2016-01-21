@@ -28,6 +28,7 @@ nav{
 	
 }
 
+
 about{
 	width: 250px;
 	position: fixed;
@@ -97,7 +98,6 @@ ondertitel{
 	margin-right:auto;
     margin-left: auto;
 }
-
 
 
 article {
@@ -435,7 +435,6 @@ blockquote {
 	position: relative;
 	color: #000000;
 }
-
 
 
 
