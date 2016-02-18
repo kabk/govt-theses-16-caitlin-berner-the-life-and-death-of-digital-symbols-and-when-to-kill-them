@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<!-- ** see note -->
-
     <head>
 
         <title>The Life and Death of Digital Signs and When to Kill Them | Caitlin Berner</title>
@@ -19,7 +17,10 @@
         <meta property="dc:title" content="The Life and Death of Digital Signs and When to Kill Them" />
         
         <!-- <link rel="shortcut icon" href="favicon.ico"> !-->    
-        <link href='https://fonts.googleapis.com/css?family=Lora:300,600,700,800,400' rel='stylesheet' type='text/css'>  
+        <link href='https://fonts.googleapis.com/css?family=Lora:300,600,700,800,400' rel='stylesheet' type='text/css'> 
+        <link href='https://fonts.googleapis.com/css?family=Arimo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'> 
+      
         
         
         <link rel="stylesheet" type="text/css" href="css/normalize.css" />
@@ -28,26 +29,26 @@
            <script src="jquery.js"></script>
            <script src="script.js"></script>
 
-	
+  
         <style type="text/css"></style>
 
-	    <script>
-	    $(function() {
-	      $('a[href*=#]:not([href=#])').click(function() {
-	        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      <script>
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 
-	          var target = $(this.hash);
-	          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-	          if (target.length) {
-	            $('html,body').animate({
-	              scrollTop: target.offset().top
-	            }, 1000);
-	            return false;
-	          }
-	        }
-	      });
-	    });
-	    </script>
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+      </script>
    
     </head>
 
@@ -55,281 +56,229 @@
 
 
     <body>
-        <header> 
-<!--             
-<div id="about">
-  <a <p> THESIS <a href="http://www.caitlinberner.com/">CAITLIN BERNER</a><br/>
-         2016 KABK GRAPHIC DESIGN.<br> 
-         For more information mail to:<br>
-      <a href="mailto:caitlin@caitlinberner.com">info@caitlinberner.com</a></p>
-  </a>
-</div>
--->
+        <header> <!-- In HTML5 there are the elements header, nav, article and aside that are just like divs (blocks)… 
+                      The only difference is that through their name, they indicate their function,
+                      so it helps in structuring the code -->
+                 <!-- Note: the <head> tag is invisible metadata, the <header> tag is visible on the page!-->
+
+            <titel>THE LIFE AND DEATH OF DIGITAL SIGNS AND WHEN TO KILL THEM</titel> 
+         <ondertitel>When the floppy becomes <br>a 3D-printed save button </ondertitel>
+              
+              <div id="headerimg">
+            <img src="images/header.gif" alt="">
+          </div>
 
 
-<about> 
-  <a   <a href="http://www.caitlinberner.com/">CAITLIN BERNER</a> THESIS <br>
+          <about> 
+      <a <a href="http://www.caitlinberner.com/">CAITLIN BERNER</a> THESIS <br>
          2016 KABK GRAPHIC DESIGN.<br> 
          For more information mail <br>to:
       <a href="mailto:caitlin@caitlinberner.com">info@caitlinberner.com</a></p>
-  </a>
-</about>
+      </a>
+          </about>
 
-
-
-
-            <titel>The Life and Death of Digital Signs and When to Kill Them <img src="images/floppy.gif" 
- height="65" width="65" /> </titel> 
-      <!-- <ondertitel>When the floppydisk became a 3D-printed Save Button </ondertitel> -->
-				<br/><br/><br/><br/><br/><br/>
-        
         </header>
 
 
-        <nav>
-            <ul> <!-- <ul> means unordered list. Instead of a ist of links like this, you could also make a paragraph and do many <br/>’s
-                      The advantage of the list is that each list element has their own node (<li>), which gives you more control
-                      over styling through CSS, and makes it more easy to add JavaScript behaviours (accordeon etcetera). -->
 
-			          <li><a href="#Intro">Introduction</a></li>
-                <li><a href="#chapter1">1. Addicted to the 'new'</a></li>
-                <li><a href="#chapter2">2. Theory of Signs</a></li>
-                <li><a href="#chapter3">3. Skeuomorphism vs Flat Design</a></li>
-                <li><a href="#chapter4">4. Future</a></li>
-                <li><a href="#Conclusion">Conclusion</a></li>
-                <li><a href="#Appendix">Appendix</a></li>
-                <li><a href="#Sources">Sources</a></li>
-                <li><a href="#thanks">Thanks</a></li>
+
+
+
+
+        <nav>
+            <ul> 
+                <li><a href="#inleiding">INTRODUCTION</a></li>
+                <li><a href="#hoofdstuk1">1. GUI</a></li>
+                <li><a href="#hoofdstuk2">2. MY OBSERVATION</a></li>
+                <li><a href="#hoofdstuk3">3. INTERPRETATION</a></li>
+                <li><a href="#Conclusie">CONCLUSION</a></li>
+                <li><a href="#Eindnoten">FOOTNOTES</a></li>
+                <li><a href="#Dankwoord">THANKS</a></li>
          
-				    </ul>
+                
+            </ul>
         </nav>
         
           
-        <article> <!-- I’ve put the main text in an ‘article’ tag. By default we will get a kind of static, blog style layout,
-                       where it will be one long scroll to the bottom. If you want to take elements of your thesis and position
-                       them in different ways, you might need to divide them up into <section>’s or <div>’s before you can
-                       position them through CSS -->
+        <article>
            
-		<div class="sections">
-            <section id="Intro"><h2>INTRODUCTION</h2></section>
-		</div>
-		<br/>
-		<br/>
-
-<p>Have you ever realized that the save button on your computer is represented by a tiny depiction of a floppy disk? An object which people don’t use anymore. Most young children might not even recognize it at all. They have never seen this in real life, never used it for storing their files. Within a short time the floppy disk was not used anymore, and we moved on to other saving formats like CD-Roms, USBs, hard-disks, and many others to come.  At the start of my research I found an image of someone holding a floppy-disk, with the title “a 3d printed save button!”. I found it fascinating how only seeing and knowing an icon based on a real object had made the object lose its real meaning.</p>
-
-<p>Because of the amount of time we spend behind our computers and on our phones, icons and symbols have a more important role in our daily lives. Huge amounts of data is presented to us daily and icons and symbols visualize quickly what words can’t say in the same amount of time. But in doing this a lot of factors affect the significance of these signs.  </p>
-
-<p>This thesis will explore several factors that influence the way an interface sign is perceived and how meaning is connected to signs in an interface in the first place. The current addiction to new digital devices, constantly improving and renewing, 
-the amount of digital literacy, design aesthetics, and the overall importance of icons and symbols are discussed. </p>
-
-<p>The main focus of this thesis will be the evolution of significance of interface signs on a screen. How significance is created for icons and symbols, how they can lose their meaning and when we might need to replace or get rid of them. The life and death of digital signs and when to kill them. It also explores the influence icons and symbols has on the physical objects they represent. Like the floppy disk (the object) becoming a 3D-printed save button (the digital representation).</p>
-
-<p>This lead me to my research question:</p>
-
-<p><i>In what way does the design of interface symbols 
-and icons affect the way we see the (physical) world, 
-and, considering the future, should we re-think 
-their design accordingly? </i></p>
- 
-<br/>
-
-
-      	<div class="sections">
-            <section id="chapter1"><h2>1. Addicted to the 'new'</h2></section>
-		</div>
+    <div class="sections">
+    <section id="inleiding"><h2>INTRODUCTION</h2></section>
+    </div>
     <br/>
     <br/>
+        <div class="image"> <img src="images/floppy3d.jpg"/> <div class="bijschrift"> Found example Found example Found example Found example Found example Found examplev Found example</div></div>
 
-<p>When exploring the subject of digital icons and symbols I realized quickly that there were many more examples like the floppy-disk. Many more objects that are replaced, so also many more icons which were relevant at the time they were designed but have lost their meaning because in modern times we seem to continuously revamp, redesign and improve current devices. All of the icons that undergo this process of not referring to their intended physical object could change the significance of the real object. Significance is shifting from meaning of the object to meaning of the icon (which is actually based on the meaning the object had). These icons are only read they way they were meant to be read by the people that really experienced these objects before the computer became such a big part of our lives.</p>
+        <p>Have you ever realized that the save button on your computer is represented by a tiny depiction of a floppy disk?  An object which people nowadays do not use anymore. Most young children might not even recognize it at all. They have never seen this in real life and certainly never used it for storing their files. Because within a short time the floppy disk was replaced by other saving formats like CD-Roms, USBs, hard-disks and the Cloud, and the icon in the Graphical User Interface (GUI) on our screens did not change accordingly, the significance of the original object (the floppy disk itself) is replaced by that of the digital significance for people that did not experience the object in its original form. </p>
 
-<p>Media and technologies shape us more than ever before. The changes that are happening due to (fast) technological developments are seen everywhere. Relatively new software products (computer, smartphone) are tools that are used in society every day, both professionally and in our daily lives. People communicate with each other via computer, work using a computer and basically do everything on their computer. Life without this device is unimaginable. The flow of information on this device is growing constantly and the products we use to access the Internet are changing with it. To grasp this vast amount of (digital) information we are exposed to, we need images to make it all easier to process. So Graphical User Interface (GUI) design is becoming progressively more important to all aspects of life. To manage and control the complex situations in which we find ourselves. We communicate (“speak”) via our computers, but we also have to communicate (understand) our computers. Human-Computer interaction (HCI) is a sign based process. </p>
+        <p>This lead me to my research question: <i>In what way does the design of interface symbols and icons affect the way we see the (physical) world, and, considering the future, should we re-think their design accordingly?</i> </p>
 
-<p>People have different opinions about if a sign based process is the right way to communicate between user and computer, and what the role of text is in this matter. Dr. Lynell Burmark, Ph.D. Associate at the Thornburg Center for Professional Development and writer of several books and papers on visual literacy, said, </p>
+        <p>Because of the huge amount of time we spend behind our computers and on our phones, icons and symbols have gained a more important role in our daily lives. Huge amounts of data are presented to us daily and icons and symbols visualize quickly what words can’t say in the same amount of time. Unfamiliar digital spaces are explained through GUI. How this is done, what it means when an icon outlives the object it is based upon, what that means for the interpretation and what influences the design of the icons is explained in this thesis. </p>
 
-<p><i>“...unless our words, concepts, ideas are hooked onto an image, they will go in one ear, sail through the brain, and go out the other ear. Words are processed by our short-term memory where we can only retain about 7 bits of information. Images, on the other hand, go directly into long-term memory where they are indelibly etched.”</i></p>
+        <p>The main focus of this thesis will be the evolution of significance of interface signs on a screen and the influence icons and symbols have on the physical objects they represent. Like the floppy disk (the object) becoming a 3D-printed save button (the digital representation). This thesis explores how significance is created for icons and symbols, how they can lose their meaning and when we might need to replace or get rid of them. The life and death of digital signs and when to kill them. </p>
 
-<p>Therefore, it is not surprising that the complex functions/tools on our computers are almost always represented in icons and/or symbols for us to understand them. <a href="#fn1" name="fr1"><sup>1</sup></a> </p>
+        
+        
+    <div class="sections">
+    <section id="hoofdstuk1"><h2>1. GUI</h2></section>
+    </div>
+    <br>
+    <br>
+      <p>When the personal computer entered the consumer market in the nineteen-eighties, everything changed. It was (and still is) an instrument of infinite possibilities. A palette of tools which could accommodate nearly any process with immediate results. Computers had already existed for a while, but because of it’s difficult to use command line, text-based interfaces could only be used by scientists. When the those interfaces were replaced (although you can still use command line) by a visual interface (GUI) they were more accessible and thus the personal computer made it to the general public and became a integral part of our (daily) lives. </p>
 
-<p>Although icons might be central to Graphical User Interfaces and they do connect user with computer, text can (and often has to) provide more specific information about an icon or in stead of an icon. Then the motivation in Burmarks quote about learnability, easy to remember images doesn’t hold up. Designers hailed pictures as universal language in the 20th century. Yet in the age of code, text has become a more common denominator than images, as text is searchable, translatable and capable of being reformatted and restyled for alternative or future media. [3]</p>
+      <p>At this moment in time, life without computers seems unthinkable. New software products such as computers and smart-phones give us access to the huge, growing flow of information on the internet, and new programs and applications are developed for them every day. New (and improved) digital devices appear on the market faster than we can keep up with. To grasp the vast amount of (digital) information we are exposed to, and to manage and control the complex situations in which we find ourselves, Graphical User Interface (GUI) design is becoming progressively more important to all aspects of life. </p>
 
-<p>Another opinion about images with or without text is that without graphics, an idea may be lost in a sea of words. Without words, a graphic may be lost to ambiguity. Robert E. Horn, an award-winning scholar at Stanford University’s Center for the Study of Language and Information, said, </p>
+            <h3>1.1 WHAT IS GUI</h3>
+            
+      <p>We communicate (“speak”) via our computers, but we also have to communicate (understand) our computers. The GUI uses the computers graphics capabilities to make a program easier to use and learn. Besides computers, GUIs can be found in devices such as gaming devices, smartphones, MP3 players and smaller household, office and industrial equipment. The GUI allows the use of visual indicators to interact with electronic devices. It is the opposite of the Command Line Interface(CLI), which means the device only reacts to typed text commands. GUI is the part between the complex text-based computer language and (most) users. It tries to facilitate computer use regardless of users’ level of expertise. Although there are several opinions on how to visually achieve this, which I will talk more about later in chapter three. While some people might prefer the command-driven, textual interface, for the majority of people the GUI (doesn’t matter which style) is the most practical way to use a computer. </p>
 
-<p>“When words and visual elements are closely entwined, we create something new and we augment our communal intelligence ... visual language has the potential for increasing human bandwidth’—the capacity to take in, comprehend, and more efficiently synthesize large amounts of new information.” [2]</p>
-
-<p>All the points made above seem valid but for this thesis I will (first) only focus on the use of image in interface design, as the subject of text and image is one to write a whole thesis about on its own. </p>
-
-<p>1.1 TAKING THINGS AT INTERFACE VALUE, OR NOT</p>
-
-<p>The GUI uses the computers graphics capabilities to make a program easier to use. It’s the part between the complex computer language and (most) users. They try to facilitate computer use regardless of users’ level of expertise. Some might know and use the command-driven, textual interface but for most people the GUI is the most practical way to use a computer. Signs are already used everywhere to simplify complexities of (new) spaces. (EXAMPLE? airport, roadsigns) The computer and smartphone are definitely strange new spaces (as they have only existed since the 1980’s) and will have many new functions and will take on new shapes that we do not know yet. We need all the help we can get. How does this take shape, and what will happen when those new spaces become familiar? </p>
-
-<p>Sherry Turkle explains in her article The Way Computers Change the Way we Think: 
-“We expect software to be easy to use, and we assume that we don’t have to know how a computer works. Macintosh users began to use the term ‘transparency’ when they talked about seeing their documents and programs represented by attractive and easy-to-interpret icons. They were referring to an ability to make things work without needing to go below the screen surface. Today, when people say that something is transparent, they mean that they can see how to make it work, not that they know how it works. In other words, transparency means epistemic opacity.” [4] </p>
-
-
-<p>What Turkle means is that the people who either built of bought the first generation of personal computers, understood their operating system down to the bits and bytes. The operating systems became more complex, but still people tried to understand their computers completely. Contemporary information technology encourages different kind of dealing with understanding the complex systems. People take things at an (inter)face value. Nobody probes below the surface.(MORE OPINIONS?) </p>
+      <a href="#fn1" name="fr1"><sup>1</sup></a>
 
 
-<p>Although Turkles statement might be true in certain aspects, I have also noticed recent developments that actually focus more on the understanding below the surface. Even at art academies the focus is shifting from only designing the surface to also knowing how the tools work. Coding classes are introduced and there is an apparent interest (in the design world) for (coding) language. I think the tendency Turkle talks about it a temporary truth. It might have been that way in 2004 but now this has already shifted towards a more investigating mindset. This might only get more, or get less again; the future is hard to predict when it comes to people interacting with computers. </p>
+            <h3>1.2 THEORY OF SIGNS</h3>
+            
+      <p>A well known statement about Human Computer Interaction(HCI) is that it is a sign based process. But signs can actually be anything, so for this thesis I want to define what I exactly mean when I talk about  signs and name what kind of signs there are.</p>
 
-<p>Besides the notion that people take things only at interface value, which has effect on the way icons will be perceived and used, the notion of people having a more investigating mindset also has its way of effecting the way an icon can be interpreted and thus designed. Different digital literacies influence how a computer is used by the user, and how icons and symbols are interpreted. People that grow up using the computer understand them better than people who did not. They have different levels of webskills. </p>
+      <p>We don’t usually take the time to think about it, but we begin learning signs from the time we are a child. This is just as true for people of every culture around the world, today as it was thousands of years ago. During the evolution of human cultures we have given meaning to virtually every object, gesture and living thing you can imagine. Over time, the world has become saturated with signs. Modern humans have the ability to interpret, evaluate, and infer meaning from information presented (visually). How a sign is ‘read’ depends on the visual codes and conventions that are embedded in the society of the person who is ‘reading’ the sign.</p>
 
-<p>1.2 DIGITAL LITERACIES</p>
+      <p>Although sign theories have a long history, Charles Sanders Peirce’s theory is distinctive and innovative for its breadth and complexity, and for capturing the importance of interpretation to signification. Which is why I will use his theory of signs as the base of this thesis. Peirce categorized signs according to three elements: representamen (sign), object and intrepretant. By examining their relationship and, in particular, the way the referent determines the sign, Peirce also distinguished three main ‘modes’  into which signs can be assigned: symbol, icon and index. [6] All three modes defined by Pierce have different levels of conventionality, predictability and conformity.</p>
 
-<p>In 2001 Prensky introduced the term Digital 
-Natives to describe a new generation of users 
-who “have spent their entire lives surrounded by and using computers, videogames, digital music players, 
-videocams, cell phones, and all the other toys and tools 
-of the digital age”. [5]</p>
+      <p>A symbol is a sign that has no resemblance to what it represents. It has meaning because it has been assigned. Symbols simply mean what they mean even though there is no natural relationship between the sign and the object it refers to. It is based on convention and there is no factual link between sign and object. A symbol is arbitrary, unmotivated and constructed and “agreed upon”.</p>
 
-<p>Digital naives are users who are unfamiliar with, and didn’t grow up with these devices. In a sense this devision is still valid but some of the claims Prensky made are outdated already. Some of his examples for the Native/Immigrant-divide can not be applied now. (WHY NOT?)</p>
-<p>
-In the following chapter I will mention three levels of users, and how they understand and use digital products according to Prensky’s explenation while pointing out what has changed already since his claims were made.</p> 
+      <p>An index is a sign that is directly connected to what it represents. Indexes can be described as a learned association. Based on casualty with a physical link between sign and object. Well known example of an indexical signs are smoke as a sign for fire and a thermometer as an index for temperature. The indexes indicate it without being similar to the it and without cultural conventions needed to understand it (correctly). In a way, indexical signs can not exist in digital interfaces because nothing on a computer screen is a natural symptom of anything. Everything is artificial, designed, based on symbolic programming code. Still, because computers have become such a normal part of our lives, we actually perceive index signs when using digital products. A hot laptop body relates to heavy processor use, and the hum of the laptop indicates a (hard) working hard drive. Indexical signs in the digital world seemed impossible but as we are more used to the digital we assume the symptoms on our screen as real too. When the spinning wait cursor appears it indicates the application is busy, and when the trash icon is bloated we perceive it as full. In our modern society many other indices are actually not natural either. A red stoplight is a sign to stop your car, a beep from the microwave means the meal is done heating up. </p>
 
-<p>Naives
-When computer users were not familiar with computers and thus graphical user interfaces (GUI) and it was all still new, they were confronted with iconic representations of files, printers, trashcans on their computer screens. They perceived those icons to be representations of the real artifacts as those were the only thing they knew before. They consciously replaced the digital, symbolic code with these visual metaphors. The digital naives are GUI users that have little experience with computers. For them the words ‘files’ and ‘folders’ stand 
-for physical objects. They understand the icons 
-as metaphors, that are there to help using 
-computers. </p>
+      <p>The third mode is the icon. An icon is a sign that shows a resemblance to, or imitates what it represents (signifies). It is based on similarity between sign and object, it often possesses some of its qualities. The example of the floppy disk I gave at the beginning of this thesis, is an icon. It (the save button) imitates what it represents (the floppy disk on which we then saved our data). In most parts of this thesis I will discuss icons more than symbols and indexes. Most GUI signs are icons, because of several reasons which I will explain in the coming chapters. The choice for icons is often made because factors such as learnability and recognizablity are important when interacting with a digital device. Icons are often used to simplify complexities of (new) spaces (like street-signs, or at airports). The computer and smart-phone are definitely strange new spaces (as they have only existed since the 1980’s) . They will probably have many new functions and will take on new shapes that we do not know yet. New spaces will arise only faster an faster if we continue technological developments the way we are now. Icons, symbols and indexes will become a even bigger part of our lives, because we will need all the help we can get. 
+      </p>
 
-
-<p>Native
-The digital native on the other hand grew up with  digital products. So they do not conceive the computer model and it’s icons as a representation of a physical office with files and a trashcan like the digital naives. There is a big chance that before they knew the corresponding representations on screen they were unaware of (most) objects the icons refer to, especially the physical objects that were used as reference points around the time the first GUI was introduced. This depends on their age. For them, because of the lack of knowing the original depicted objects, it is difficult/impossible to construct any similarity so to them the icons are just arbitrary symbols (more about this later). Children today grow up simultaneously in the ‘real’ world and in the digital world, the border between the two becomes smudged and non-existant. At this moment in time there already is a second generation of digital natives, who experience this divide between digital and analog even less. To them swiping might feel more natural than peeling an orange. </p>
-
-<p>Immigrant
-In addition, there are also digital immigrants who were not born in the digital era and did not grow up with digital technology but have embraced it. At first they might conceive icons the same way as digital naives. If the digital model stays consistent over long periods of time, signs go from being consciously conceived as representations of something, to semi natural index signs. Interface signs can be perceived more and more like they are perceived by (the second generation of) digital natives. <p>
-
-<p>These three levels of expertise, influence the way icons are perceived and used. Designers can keep their user in mind while designing. Maybe for digital naives icons are a necessity, but for natives symbols would suffice. Keep in mind these are really strict devisions, which will probably be different per person and overlap and change over time. Another factor to take into account when questioning how meaning is connected to digital signs are the different types of semiotic signs, which I will explain according to the theory of signs by Charles Sanders Pierce (1839-1914). </p>
+<!--
+<a href="#fn2" name="fr2"><sup>2</sup></a>
+<a href="#fn3" name="fr3"><sup>3</sup></a>  
+<a href="#fn4" name="fr4"><sup> 4</sup></a> 
+<a href="#fn5" name="fr5"><sup>5</sup></a> 
+<a href="#fn6" name="fr6"><sup>6</sup></a> 
+<a href="#fn7" name="fr7"><sup>7</sup></a> 
+-->
 
 
-
-
-			<div class="sections">
-            	<section id="chapter2"><h2> 3.0 Theory of Signs</h2></section>
-			</div>
-			<br>
+      <div class="sections">
+      <section id="hoofdstuk2"><h2>2. MY OBSERVATION</h2></section>
+      </div>
       <br>
+      <br>
+      <p>The observation I have made in my surroundings, starting with the floppy save-button incident, is that icons often do not refer to the intended represented object anymore. This made me question what it means for an icon to (physically) resemble something, and if icons that refer to something that has become absolete or does not exist at all are still icons or if they lose their significance completely.</p>
 
-<blockquote>'WE THINK ONLY IN SIGNS' - Charles Sanders Peirce (1839-1914)  <a href="#fn8" name="fr8"><sup>8</sup></a> </blockquote>
+            <h3>2.1 SCOPE OF SIGNS</h3>
+      <p>With these questions in mind I realized that there are many different kinds of icons and symbols and even combinations of the two, which is kind of contradicting. Next to the icons that refer to a physical object, which has become obsolete, there is the possibility that icons have a physical equivalent, and maybe always will. Icons for things like the trash or an time/clock will probably always exist and work, because those objects will always exist or at least take a long (very long) time to change into something else. There are also icons that change(d) along with the (technological) developments and replacements in real life, and maybe even icons that changed before the object changed. Icons that also have to be mentioned are those of certain specific programs that are recognizable to some (that know the program in real life or digital) but not to others.</p> 
 
-<!--<img src="images/1.png" />-->
+      <p>In the future, there might also be icons with no similar real life object, because they will be based on something artificial. Then there are also icons that are combined with symbols, like the email icon with the @ on top of it, and icons developed into or replaced with symbols.</p> 
+
+            <h3>2.2 ADDICTION TO THE NEW </h3>
+      <p>One of the main reasons, I realized during my research into this topic, if icons do not refer to their intended physical object anymore it is because people nowadays seem to be addicted to the new. We live in the Information age, which means there is an overload of information as well as devices we receive and make this information with. In a relatively short amount of time technological developments accelerated which resulted into a tendency to replace existing formats with better, newer models faster than ever before. They want to revamp, restyle, improve, update, replace everything they have as soon as there is a newer version available. Marketers react on this need, and create this need by putting new products on the market faster and faster. On every new digital device there often also are new (updated) Graphical User Interfaces. But I realized that in many of those new GUI  there are a lot of icons that refer to objects that are not used anymore. Why do the icons not change along with the changes of the artefacts? People(younger generations especially) will see the original objects in a different way, because only the digital depiction is known. My observation and starting point of this thesis is that this phenomenon will happen more often (and faster). </p>
+
+      <p>For instance, if we look at the development of when the mobile phone was just introduced to the smart-phone now, we see huge changes in only a short amount of time. We replace formats so often that they seem to disappear even before they exist. An evolution of objects which doesn’t take thousands of years, but only a few. </p>
+      
+      <img src="images/phone.jpg" />
+
+      <p>This behaviour could lead to a certain form of collective memory-loss. When changes are made so rapidly and we don’t take the time to archive/save these changes, we will forget them. We seem to only live in the ‘now’ or in the near future, rather than looking into the past. At this moment in time I can’t imagine my life without a smart-phone, even though it is not that long ago it did not even exist. What will happen in ten years to come? Maybe then we can’t imagine life with a smart-phone anymore and something else has replaced this role in our lives. There is no way to really know what will happen, the only thing we can do is to take a look at what is currently happening around us. </p>
+
+      <p> Because of this development, the fast changing and replacing of the devices in our lives, the icons used in the GUI on these devices will have a hard time keeping up. They then will change the way people see the real object, as they will not be recognized anymore. When a GUI icon is based on an object, the reason for this can be, as I have mentioned before, recognizability and learnability. These two things were the main reason why GUI was introduced on computers in the first place and also had/have a big influence on the style that is applied to the icons and symbols as well. But first, to understand why certain (design) choices are made in GUI I have to explain the different levels of digital literacy. </p>
+
+
+<!--
+<blockquote>'Football is as old as the world (...) People have always played some form of football, from its very basic form of kicking a ball around to the game it is today.’  <a href="#fn8" name="fr8"><sup>8</sup></a> </blockquote>
+-->
 
 
 
+        <div class="sections">
+            <section id="hoofdstuk3"><h2>3. INTERPRETATION</h2></section>
+    </div>      
+    <br><br>
 
-<div class="sections">
-            <section id="appendix"><h2>Appendix</h2></section>
+      <p>There are different levels of understanding a computer, based on the amount of experience one has with them. Knowing these factors is important for the design of the icons and symbols on the screen. </p>
+
+           <h3>3.1 DIGITAL LITERACIES</h3>
+      <p>In 2001 Prensky introduced the term Digital Natives to describe a new generation of users who “have spent their entire lives surrounded by and using computers, videogames, digital music players, videocams, cell phones, and all the other toys and tools of the digital age”. [5] </p>
+
+    <p>In the following chapter I will explain three levels of users, and how they understand and use digital products according to Prensky’s explenation while pointing out what has changed already since his claims were made. </p>
+
+     <p>Naives
+      When computer users were not familiar with computers and thus graphical user interfaces (GUI) and it was all still new, they were confronted with iconic representations of files, printers, trashcans on their computer screens. They perceived those icons to be representations of the real artifacts as those were the only thing they knew before. They consciously replaced the digital, symbolic code with these visual metaphors. The digital naives are GUI users that have little experience with computers. For them the words ‘files’ and ‘folders’ stand for physical objects. They understand the icons as metaphors, that are there to help using computers. </p>
+
+      <p>Native
+      The digital native on the other hand grew up with  digital products. So they do not conceive the computer model and it’s icons as a representation of a physical office with files and a trashcan like the digital naives. There is a big chance that before they knew the corresponding representations on screen they were unaware of (most) objects the icons refer to, especially the physical objects that were used as reference points around the time the first GUI was introduced. This depends on their age. For them, because of the lack of knowing the original depicted objects, it is difficult/impossible to construct any similarity so to them the icons are just arbitrary symbols (more about this later). Children today grow up simultaneously in the ‘real’ world and in the digital world, the border between the two becomes smudged and non-existant. At this moment in time there already is a second generation of digital natives, who experience this divide between digital and analog even less. To them swiping might feel more natural than peeling an orange. </p>
+
+      <p>Immigrant
+      In addition, there are also digital immigrants who were not born in the digital era and did not grow up with digital technology but have embraced it. At first they might conceive icons the same way as digital naives. If the digital model stays consistent over long periods of time, signs go from being consciously conceived as representations of something, to semi natural index signs. Interface signs can be perceived more and more like they are perceived by (the second generation of) digital natives.</p> 
+
+      <p>These three levels of expertise, influence the way icons are perceived and used. Designers can keep their user in mind while designing. Maybe for digital naives icons are a necessity, but for natives symbols would suffice. Keep in mind these are really strict devisions, which will probably be different per person and overlap and change over time. </p>
+
+
+
+<!--
+        <div class="sections">
+            <section id="Conclusie"><h2>4. De belangrijkste bijzaak ter wereld</h2></section>
+    </div>
+        <h3><a name="Conclusie">4.1 Conclusie</a></h3>
+
+        -->
+
+        
+    <div class="sections">
+            <section id="Eindnoten"><h2>FOOTNOTES</h2></section>
+    </div><br/>
+      <br/> 
+      
+
+      
+       <p>1. www.encylco.nl <a name="fn1" href="#fr1">↩</a></p>
+       <p>2. Durkheim, E. (1912/1995) – <u>The Elementary Forms of the Religious Life</u>, New York: The Free Press <a name="fn2" href="#fr2">↩</a></p>
+       <p>3. Lukken, G. (1999) - <u>Rituelen in overvloed</u>, Baarn: Gooi & Sticht <a name="fn3" href="#fr3">↩</a></p>
+       <p>4. De traditionele zegen die de paus met Kerstmis en Pasen en bij bijzondere gelegenheden uitspreekt vanaf het balkon van de Sint-Pieter in Rome. <a name="fn4" href="#fr4">↩</a></p>
+       <p>5. Van der Zeijden, A. (2010) - <u>Rituelen in het dagelijks leven</u>, in: TussenRuimte nr. 2, p. 9-14 <a name="fn5" href="#fr5">↩</a></p>
+       <p>6. Duits, L. (2011) - <u>Mediahysterie rond huwelijk William en Kate schuld van secularisering</u>, www.thepostonline.nl <a name="fn6" href="#fr6">↩</a></p>
+       <p>7. Dayan, D. & Katz, E. (1994) - <u>Media Events: The Live Broadcasting of History, Harvard University Press </u><a name="fn7" href="#fr7">↩</a></p>
+       <p>8.  Goldblatt, D. (2006) - <u>The Ball is Round</u>, New York: The Penguin Group, p. 12 <a name="fn8" href="#fr8">↩</a></p>
+       <p>9.  Bischop van Lincoln (12e eeuw) - Precieze details onbekend <a name="fn9" href="#fr9">↩</a></p>
+       <p>10.  Kuper, S. & Szymanski, S. (2014) - <u>Soccernomics</u>, New York: Nation Books, p. 410 <a name="fn10" href="#fr10">↩</a></p>
+       <p>11.  KantarSport (2011) - <u>2010 FIFA World Cup South Africa Television Audience Report</u>, p. 7 <a name="fn11" href="#fr11">↩</a></p>
+       <p>12.  Giulianotti, R. & Robertson, R. (2009) - <u>Globalization and Football</u>, p. 157<a name="fn12" href="#fr12">↩</a></p>
+       <p>13.  Shankly, B in - <u>The Ball is Round</u>, geciteerd door Goldblatt, 2006, p. 12 <a name="fn13" href="#fr13">↩</a></p>
+       <p>14.  Durkheim, E. (1912/1995) – <u>The Elementary Forms of the Religious Life</u>, New York: The Free Press <a name="fn14" href="#fr14">↩</a></p>
+       <p>15. Nourhussen, S. (2008) - <u>Nederlander snakt naar een feestje</u>, trouw.nl <a name="fn15" href="#fr15">↩</a></p>
+       <p>16.  van Zomeren, M. (2014) - <u>Individualistisch Nederland in één kleur</u>, www.mensensamenleving.infonu.nl <a name="fn16" href="#fr16">↩</a></p>
+       <p>17.  Cialdini, R. (1976) - <u>Basking in Reflected GLory: Three (football) Field Studies </u><a name="fn17" href="#fr17">↩</a></p>
+       <p>18.  Nourhussen, S. (2008) - <u>Nederlander snakt naar een feestje</u>, trouw.nl<a name="fn18" href="#fr18">↩</a></p>
+       <p>19.  Wetzel, K. & Wyner, D. (2005) - Intercollegiate soccer <a name="fn19" href="#fr19">↩</a></p>
+       <p>20.  Kuper, S. & Szymanski, S. (2014) - <u>Soccernomics</u>, New York: Nation Books, p.267 <a name="fn20" href="#fr20">↩</a></p>
+       <p>21.  Oliver, J. - FIFA and the World Cup, Youtube <a name="fn21" href="#fr21">↩</a></p>
+       <p>22.  Fussell, P. (2002) Why we Are What we Wear. Boston: Houghton Mifflin. <a name="fn22" href="#fr22">↩</a></p>
+       <p>23.  Tifo: het aftroeven van je tegenstander door de trots te laten blijken op eigen club, stad of streek. <a name="fn23" href="#fr23">↩</a></p>
+       <p>24.  Nourhussen, S (2008) - Nederlander snakt naar een feestje, trouw.nl <a name="fn24" href="#fr24">↩</a></p>
+       <p>25.  <u>www.wikipedia.org  </u><a name="fn25" href="#fr25">↩</a></p>
+       <p>26.  Turner, V. (1969) – <u>The Ritual Process: Structure and Anti-Structure</u>, (secundaire bron C. Bell)<a name="fn26" href="#fr26">↩</a></p>
+       <p>27.  Durkheim, E. (1912/1995) – <u>The Elementary Forms of the Religious Life</u>, New York: The Free Press <a name="fn27" href="#fr27">↩</a></p>
+       <p>28.  Mutz, M. (2013) - <u>Patrioten für drei Wochen </u><a name="fn28" href="#fr28">↩</a></p>
+       <p>29.  Goldblatt, D. (2006) - <u>The Ball is Round</u>, New York: The Penguin Group, p. 903 <a name="fn29" href="#fr29">↩</a></p>
+       <p>30.  Darling-Wolf, D. - <u>Surviving Soccer fever, in Visual Communication Quarterly no. 12</u>, p. 185 <a name="fn30" href="#fr30">↩</a></p>
+       <p>31.  Van Ginneken, J. (2012) - <u>Het enthousiasme virus</u>, Amsterdam: Business Contact <a name="fn31" href="#fr31">↩</a></p>
+       <p>32.  Cole, T. (2014) - <u>Twitterbericht</u><a name="fn32" href="#fr32">↩</a></p>
+
+
+        
+    <div class="sections">
+            <section id="Dankwoord"><h2>THANKS</h2></section>
     </div>  
       <br/>
       <br/>
-
-<p> Click to compare </p>
-
-<img id="icon1" src="images/1.jpg" />
-
-
-
-				
-				
-		<div class="sections">
-            <section id="Sources"><h2>SOURCES</h2></section>
-		</div>
-			<br/>
-			<br/>	
-			
-			 <p>1. www.encylco.nl <a name="fn1" href="#fr1">↩</a></p>
-			<!-- <p>2. Durkheim, E. (1912/1995) – <u>The Elementary Forms of the Religious Life</u>, New York: The Free Press <a name="fn2" href="#fr2">↩</a></p>
-			 <p>3. Lukken, G. (1999) - <u>Rituelen in overvloed</u>, Baarn: Gooi & Sticht <a name="fn3" href="#fr3">↩</a></p>
-			 <p>4. De traditionele zegen die de paus met Kerstmis en Pasen en bij bijzondere gelegenheden uitspreekt vanaf het balkon van de Sint-Pieter in Rome. <a name="fn4" href="#fr4">↩</a></p>
-			 <p>5. Van der Zeijden, A. (2010) - <u>Rituelen in het dagelijks leven</u>, in: TussenRuimte nr. 2, p. 9-14 <a name="fn5" href="#fr5">↩</a></p>
-			 <p>6. Duits, L. (2011) - <u>Mediahysterie rond huwelijk William en Kate schuld van secularisering</u>, www.thepostonline.nl <a name="fn6" href="#fr6">↩</a></p>
-			 <p>7. Dayan, D. & Katz, E. (1994) - <u>Media Events: The Live Broadcasting of History, Harvard University Press </u><a name="fn7" href="#fr7">↩</a></p>
-			 <p>8.  Goldblatt, D. (2006) - <u>The Ball is Round</u>, New York: The Penguin Group, p. 12 <a name="fn8" href="#fr8">↩</a></p>
-			 <p>9.  Bischop van Lincoln (12e eeuw) - Precieze details onbekend <a name="fn9" href="#fr9">↩</a></p>
-			 <p>10.  Kuper, S. & Szymanski, S. (2014) - <u>Soccernomics</u>, New York: Nation Books, p. 410 <a name="fn10" href="#fr10">↩</a></p>
-			 <p>11.  KantarSport (2011) - <u>2010 FIFA World Cup South Africa Television Audience Report</u>, p. 7 <a name="fn11" href="#fr11">↩</a></p>
-			 <p>12.  Giulianotti, R. & Robertson, R. (2009) - <u>Globalization and Football</u>, p. 157
- <a name="fn12" href="#fr12">↩</a></p>
-			 <p>13.  Shankly, B in - <u>The Ball is Round</u>, geciteerd door Goldblatt, 2006, p. 12 <a name="fn13" href="#fr13">↩</a></p>
-			 <p>14.  Durkheim, E. (1912/1995) – <u>The Elementary Forms of the Religious Life</u>, New York: The Free Press <a name="fn14" href="#fr14">↩</a></p>
-			 <p>15. Nourhussen, S. (2008) - <u>Nederlander snakt naar een feestje</u>, trouw.nl <a name="fn15" href="#fr15">↩</a></p>
-			 <p>16.  van Zomeren, M. (2014) - <u>Individualistisch Nederland in één kleur</u>, www.mensensamenleving.infonu.nl <a name="fn16" href="#fr16">↩</a></p>
-			 <p>17.  Cialdini, R. (1976) - <u>Basking in Reflected GLory: Three (football) Field Studies </u><a name="fn17" href="#fr17">↩</a></p>
-			 <p>18.  Nourhussen, S. (2008) - <u>Nederlander snakt naar een feestje</u>, trouw.nl<a name="fn18" href="#fr18">↩</a></p>
-			 <p>19.  Wetzel, K. & Wyner, D. (2005) - Intercollegiate soccer <a name="fn19" href="#fr19">↩</a></p>
-			 <p>20.  Kuper, S. & Szymanski, S. (2014) - <u>Soccernomics</u>, New York: Nation Books, p.267 <a name="fn20" href="#fr20">↩</a></p>
-			 <p>21.  Oliver, J. - FIFA and the World Cup, Youtube <a name="fn21" href="#fr21">↩</a></p>
-			 <p>22.  Fussell, P. (2002) Why we Are What we Wear. Boston: Houghton Mifflin. <a name="fn22" href="#fr22">↩</a></p>
-			 <p>23.  Tifo: het aftroeven van je tegenstander door de trots te laten blijken op eigen club, stad of streek. <a name="fn23" href="#fr23">↩</a></p>
-			 <p>24.  Nourhussen, S (2008) - Nederlander snakt naar een feestje, trouw.nl <a name="fn24" href="#fr24">↩</a></p>
-			 <p>25.  <u>www.wikipedia.org  </u><a name="fn25" href="#fr25">↩</a></p>
-			 <p>26.  Turner, V. (1969) – <u>The Ritual Process: Structure and Anti-Structure</u>, (secundaire bron C. Bell)<a name="fn26" href="#fr26">↩</a></p>
-			 <p>27.  Durkheim, E. (1912/1995) – <u>The Elementary Forms of the Religious Life</u>, New York: The Free Press <a name="fn27" href="#fr27">↩</a></p>
-			 <p>28.  Mutz, M. (2013) - <u>Patrioten für drei Wochen </u><a name="fn28" href="#fr28">↩</a></p>
-			 <p>29.  Goldblatt, D. (2006) - <u>The Ball is Round</u>, New York: The Penguin Group, p. 903 <a name="fn29" href="#fr29">↩</a></p>
-			 <p>30.  Darling-Wolf, D. - <u>Surviving Soccer fever, in Visual Communication Quarterly no. 12</u>, p. 185 <a name="fn30" href="#fr30">↩</a></p>
-			 <p>31.  Van Ginneken, J. (2012) - <u>Het enthousiasme virus</u>, Amsterdam: Business Contact <a name="fn31" href="#fr31">↩</a></p>
-			 <p>32.  Cole, T. (2014) - <u>Twitterbericht</u><a name="fn32" href="#fr32">↩</a></p>
--->
-
-				
-		<div class="sections">
-            <section id="thanks"><h2>THANKS</h2></section>
-		</div>	
-			<br/>
-			<br/>
-				
-				<p>I would like to thank Nick Axel, Dirk Vis, Marjan Brandsma, Eric Schrijver, Maarten Cornel and Paul Berner, for helping me during this thesis. And my grandma for not understanding anything I write about. </p> <br/><br/><br/>
-				
-				
+        
+        <p>I would like to thank Nick Axel, Dirk Vis, Marjan Brandsma, Eric Schrijver, Maarten Cornel and my parents, for helping me during this thesis. And my grandma for not understanding anything I write about. </p>  <br/><br/><br/>
+        
+        
         </article>
         
-       
-
-
-<script type='text/javascript'>//<![CDATA[
-$(window).load(function(){
-
-// in dit object enerzijds alle ‘ids’, anderzijds de titels
-titles = {
-    'icon1' : ["images/1.jpg", "images/1-1.jpg"],
-    'floppy' : ["images/floppyfake.png", "images/floppyreal.png"],
-}
-
-$('img').on('click', function() {
-
-    var id = $(this).attr('id');
-    
-   //t zoeken we de array op
-    // die hoort bij deze id
-    var to_cycle = titles[id];
-
-    // Dit is de tekst van de h1 zoals die nu is
-    var currentImg = $(this).attr('src');
-    // check waar 
-    // hoe ver zijn we in de array
-    var position = to_cycle.indexOf(currentImg);
-    // als we bij het laatste element zijn
-    if (position === to_cycle.length - 1) {
-        // gaan we terug naar het begin
-        position = 0;
-    } else {
-        // en anders gaan we eentje verder
-        position += 1;
-    }
-    // zet de nieuwe tekst
-    $(this).attr('src', to_cycle[position]);
-});
-
-});//]]> 
-
-</script>
-
-
 
     </body>
     
-<!-- ** note: Normally, just <html lang="en"> would be enough, but we add some extra attributes ‘xmlns’ and ‘xml:lang’ that ePub likes,
-     in case we are going to make an electronic book out of this website! -->
 </html>
 
