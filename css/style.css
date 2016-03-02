@@ -154,9 +154,12 @@ img {
     line-height:34px;
     float: right;
     background:white;
- 
+ 	margin-left:10px;
+ 	margin-bottom:1px;
 
 }
+
+
 
 .maintextinquote{
 	font-family: 'Playfair Display', serif;
@@ -828,8 +831,6 @@ p {
 }
 
 
-	
-}
 
 
 
@@ -837,14 +838,6 @@ p {
 
 
 
-
-
-
-/* eind test */
-
-/* @media only screen and (min-width: 46em) {
-   
-} */
 
 @media only print {
 	body{
@@ -862,7 +855,7 @@ p {
 	}
 
 	.image{
-	width:250px;
+	width:150px;
 	height:auto;
 	margin-top: 10px;
     margin-left: -100px;
@@ -871,7 +864,7 @@ p {
 	float: left;
 }
 .imageright{
-	width:250px;
+	width:150px;
 	height:auto;
 	margin-top: 10px;
     margin-left: 10px;
@@ -892,14 +885,14 @@ p {
 	
 }
 #info2{
- display: none;
+ 	display: none;
 }
 
-    nav {
-        display: none;
+nav {
+    display: none;
     }
 
-    footer{
+footer{
 	display: block;
 	font-size: 10px;
 	position: fixed;
