@@ -147,9 +147,9 @@ img {
 	margin-right:-90px;
 	font-style: normal;
 	font-size: 44px;
-	border: 2px solid black;
+	border: 2px solid blue;
    	padding: 15px;
-    width:700px;
+    width:600px;
     text-align:right;
     line-height:34px;
     float: right;
@@ -229,7 +229,7 @@ h1, h2, h3, h4,h5, h6 {
 	font-family: 'Arimo', sans-serif;
 	color: black;
 	margin: 0px auto;
-	width: 55%;
+	width: 100%;
 	font-weight: normal;
 	text-transform: uppercase;
 	margin-bottom: 0px;
@@ -249,19 +249,21 @@ h1{
 h2{
 	font-size: 40px;
 	font-family: 'Arimo', sans-serif;
-	margin-top: 28px;
+	margin-bottom: 30px;
 	letter-spacing: 0.06em;
-	text-indent: 120px;
+	text-indent: 10px;
 	color: white;
 	border: solid black 2px;
 	padding:5px;
 	background: blue;
+	width: 500px;
+	
 }
 
 
 h3{
 	letter-spacing: 0.04em;
-	text-indent: 40px;
+	text-indent: 10px;
 	color: blue;
 	
 }
