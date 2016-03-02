@@ -252,9 +252,10 @@ h2{
 	margin-top: 28px;
 	letter-spacing: 0.06em;
 	text-indent: 120px;
-	color: blue;
+	color: white;
 	border: solid black 2px;
 	padding:5px;
+	background: blue;
 }
 
 
