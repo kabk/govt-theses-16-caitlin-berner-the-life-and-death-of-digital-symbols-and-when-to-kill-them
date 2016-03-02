@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>Archive</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script src="jquery.js"></script>
+  <script src="script.js"></script>
+
+</head>
+
+
+
+<body>
+  <header>
+
+ <div id="info2"><a href="index.html">Back to Thesis</a></div> 
+</header>
+
+
+        <nav id="archive">
+            <ul> 
+                <li><a href="#1">1973</a></li>
+                <li><a href="#2">1981 – 1895</a></li>
+                <li><a href="#3">1986 – 1990</a></li>
+                <li><a href="#4">1991 – 1995</a></li>
+                <li><a href="#5">1996 – 2000 </a></li>
+                <li><a href="#6">2001 – 2005</a></li>
+                <li><a href="#7">2007 – 2009</a></li>
+            </ul>
+        </nav>
+        
+ <div class="sections">
+    <section id="1"><h2>1973</h2></section><br><br>
+    <img src="archive/1.gif" />
+    </div>
+<br><br>
+<br><br>
+<br><br>
+ <div class="sections">
+    <section id="2"><h2>1981 – 1895</h2></section><br><br>
+     <img src="archive/2.gif"/>
+    </div>
+
+
+
+
+<!--
+HOW TO PUT VIDEOS IN
+
+<video width="500" height="auto" autoplay>
+  <source src="work/SAWFINAL.mov" type="video/mp4">
+  </video>-->
+
+<!--
+<div class= "video"> 
+  <iframe src="https://player.vimeo.com/video/117054297?color=ffffff&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+  <div class="desc"> SAW | Experience | 2015</div>
+</div>
+-->
+
+    <footer>
+    <a href="http://www.caitlinberner.com/"><span style="cursor:crosshair">Caitlin Berner<span></a><br/>
+    Thesis 2016<br/>
+    </footer>
+
+
+
+
+<script type='text/javascript'>
+$(window).load(function(){
+
+titles = {
+
+   '1' : ["img/yoga.png", "img/yoga2.png", "img/yoga3.png", "img/yoga4.png"],
+
+
+ }
+
+$('img').on('click', function() {
+
+    var id = $(this).attr('id');
+    
+   //t zoeken we de array op
+    // die hoort bij deze id
+    var to_cycle = titles[id];
+
+    // Dit is de tekst van de h1 zoals die nu is
+    var currentImg = $(this).attr('src');
+    // check waar 
+    // hoe ver zijn we in de array
+    var position = to_cycle.indexOf(currentImg);
+    // als we bij het laatste element zijn
+    if (position === to_cycle.length - 1) {
+        // gaan we terug naar het begin
+        position = 0;
+    } else {
+        // en anders gaan we eentje verder
+        position += 1;
+    }
+    // zet de nieuwe tekst
+    $(this).attr('src', to_cycle[position]);
+});
+
+});//]]> 
+
+</script>
+
+</body>
+</html>
+

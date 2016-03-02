@@ -1,89 +1,217 @@
 body {	
 	background-color:white;
-	font-family: 'Lora', sans-serif;
+	font-family: 'Arimo', sans-serif;
 }
 
 header {
-    font-size: 22px;
+    font-size: 24px;
 	margin-left: 0px;
-	font-family: 'Lora', sans-serif;
+	font-family: 'Arimo', sans-serif;
 	margin-top: 50px;
 	letter-spacing: 1px;
 	font-weight: 100;
 }
 
 nav{
-	width: 250px;
+	width: 210px;
 	position: fixed;
-	font-size: 15px;
-	line-height: 16px;
-	left: 10px;
-	top: 10px;
+	font-size: 16px;
+	line-height: 22px;
+	left: 15px;
 	text-align: left;
+	border: solid black 2px;
 	text-transform: uppercase;
-	font-family: 'Helvetica', sans-serif;
+	font-family: 'Arimo', sans-serif;
 	letter-spacing: 0.04em;
+	top: 15px;
 	z-index: 999;
 	
 	
 }
 
-about{
-	width: 250px;
+footer{
+	font-family: 'Arimo', sans-serif;
+	font-size: 16px;
+	display: block;
 	position: fixed;
-	font-size: 15px;
-	line-height: 17px;
-	right: -65px;
-	top: 105px;
-	text-align: left;
-	text-transform: uppercase;
-	font-family: Helvetica, sans-serif;
-	letter-spacing: 0.04em;
-	z-index: 999;
-	    -ms-transform: rotate(90deg); /* IE 9 */
-    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-    transform: rotate(90deg);
-	
-	
+	bottom: 15px;
+	right: 15px;
+	border: solid black 2px;
+	padding:5px;
 }
+
 
 titel{
-	font-family: 'Helvetica', sans-serif;
+	font-family: 'Arimo', sans-serif;
 	font-weight: normal;
 	display: inherit;
-	text-align: left;
-	color: black;
-	margin-top: 100px;
-	font-size: 90px;
+	text-align: center;
+	color: blue;
+	font-size: 80px;
 	width: 60%;
 	margin-bottom: 0px;
-	line-height: 98px;
-	text-transform: uppercase;
+	line-height: 73px;
+	text-transform: uppercase;;
 	letter-spacing: 0.04em;
+	transform: rotate(0deg);
 	margin-right:auto;
     margin-left: auto;
 }
 
 ondertitel{
-	font-family: 'Lora', sans-serif;
+	font-family: 'Playfair Display';
 	font-weight: normal;
-	display: inherit;
-	color: black;
-	text-align: left;
-	margin-top: 10px;
-	width: 60%;
-	font-size: 50px;
-	line-height: 53px;
+	display: block;
+	color: white;
+	width:40%;
+	text-align: center;
+	border: solid blue 2px;
+	background-color: blue;
+	margin-top: 70px;
+	font-size: 40px;
+	margin-bottom: -10px;
+	line-height: 40px;
+	text-transform: uppercase;
 	letter-spacing: 0.04em;
+	transform: rotate(0deg);
 	margin-right:auto;
     margin-left: auto;
+    padding:5px;
 }
 
 
+
+img {
+    width:64%;
+    display: block;
+    height: auto;
+    margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    position: inherit;
+    	background-color: blue;
+	border: solid black 2px;
+	
+}
+
+.image{
+	width:300px;
+	height:auto;
+	margin-top: 30px;
+    margin-left: -240px;
+    margin-right: 30px;		
+    margin-bottom: 30px;		
+	float: left;
+	background-color: blue;
+	border: solid black 2px;
+	padding-top:5px;
+	padding-bottom:15px;
+
+}
+
+.imageright{
+	width:300px;
+	height:auto;
+	margin-top: 30px;
+    margin-left: 30px;
+    margin-right: -240px;		
+    margin-bottom: 30px;		
+	float: right;
+	background-color: blue;
+	border: solid black 2px;
+	padding-top:5px;
+	padding-bottom:15px;
+
+}
+
+
+.bijschrift {
+	color: black;
+	font-family: 'Playfair Display', serif;
+	font-size: 13px;
+	line-height: 13pt;
+	width: 220px;
+	margin-top: 0px;	
+	margin-left: auto;	
+	margin-right: auto;	
+	text-align: center;
+	background-color: white;
+	border: solid black 2px;
+	padding:25px;
+	
+}
+
+.quote {
+	font-family: "Arimo", sans-serif;
+	margin-right:-90px;
+	font-style: normal;
+	font-size: 44px;
+	border: 2px solid black;
+   	padding: 15px;
+    width:700px;
+    text-align:right;
+    line-height:34px;
+    float: right;
+    background:white;
+ 
+
+}
+
+.maintextinquote{
+	font-family: 'Playfair Display', serif;
+	line-height:27px;
+	font-style: italic;
+	font-size: 21px;
+}
+
+#maintext {
+
+	font-family: "Playfair Display", serif;
+	font-size: 21px;
+	width:50%;
+	margin:0px auto;
+	padding:25px;
+	line-height: 1.6;
+	margin-bottom: 25px;
+	border: solid black 2px;
+}
+
+
+#info2 {
+font-family: 'Arimo', sans-serif;
+color: red;
+text-align: left;
+position: fixed;
+top:15px;
+right:15px;
+z-index:5000;
+background-color: white;
+border: solid black 2px;
+padding:10px;
+}
+
+
+#archive {	
+	width: 170px;
+	position: fixed;
+	font-size: 16px;
+	line-height: 22px;
+	left: 15px;
+	text-align: left;
+	border: solid black 2px;
+	text-transform: uppercase;
+	font-family: 'Arimo', sans-serif;
+	letter-spacing: 0.04em;
+	top: 15px;
+	z-index: 999;
+	
+}
+
 article {
-	margin-top: 50px;
-	font-family: 'Lora', sans-serif;
-	font-size: 19px;
+	margin-top: 60px;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
 	color: black;
 	z-index: 1;
 }
@@ -91,16 +219,17 @@ article {
 li {
     list-style: none;
     margin-bottom: 8px;
-    color: blue;
+    color: white;
+
 }
 
 
 h1, h2, h3, h4,h5, h6 {
     margin: 10px 180px;
-	font-family: 'Helvetica', sans-serif;
+	font-family: 'Arimo', sans-serif;
 	color: black;
 	margin: 0px auto;
-	width: 50%;
+	width: 55%;
 	font-weight: normal;
 	text-transform: uppercase;
 	margin-bottom: 0px;
@@ -118,21 +247,32 @@ h1{
 }
 
 h2{
+	font-size: 40px;
+	font-family: 'Arimo', sans-serif;
 	margin-top: 28px;
 	letter-spacing: 0.06em;
-	text-indent: 50px;
+	text-indent: 120px;
+	color: blue;
+	border: solid black 2px;
+	padding:5px;
 }
 
 
 h3{
 	letter-spacing: 0.04em;
-	text-indent: -35px;
+	text-indent: 40px;
+	color: blue;
+	
 }
 
 h4{
+	font-family: 'Arimo', sans-serif;
 	letter-spacing: 0.04em;
-	font-size: 19px;
 	color: black;
+	font-size: 50px;
+	line-height: 1.6;
+
+
 	
 }
 
@@ -140,115 +280,102 @@ h6{
 	letter-spacing: 0.04em;
 	font-size: 40px;
 	color: black;
+	transform:rotateZ(-15deg);
 	text-align: right;
 	width: 100%;
 	margin-top: 150px;
 	margin-bottom: -200px;
-
 	
 }
 
+mark {
+    background-color: blue;
+    color: white;
+    padding:4px;
 
+}
 
 ul, ol {
-    padding-left: 5px;
+    padding-left: 15px;
     z-index: 999;
 }
 
 
 /* Sections */
 
-
-blockquote {
-	font-family: 'Note Sans', sans-serif;
-	font-size: 19px;
-	margin: 0px auto;
-	margin-bottom: 30px;
-	width: 40%;
-	font-style: italic;
-	line-height: 1.45;
-	position: relative;
-	color: black;
+section {
+  width: 100%;
+  padding-top: 1px;
+  background: #e8e5e5;
+  margin-bottom: -20px;
 }
+section:nth-child(even) {
+  background: #1fc9f3;
+}
+section:nth-child(odd) {
+  background: #ffffff;
+}
+.sections section:first-child {
+  margin-top: 10px;
+}
+section.active {}
+
+
 
 
 a{
 	color:black;
 	text-decoration: none;
-	cursor: url("images/cursor.png");
+	cursor: crosshair, auto;
 	
 }
 
-
-
 a:hover{
-	color: black;	
+	color: blue;	
 	border-bottom: 2px solid black;
 } 
 a:visited{
 	color:black;
 }
 a:active {
-    color: gray;
+    color: blue;
 }
 
 p {
-	font-size: 20px;
+	font-size: 21px;
     margin: 0px auto;
 	width: 50%;
 	line-height: 1.6;
 	margin-bottom: 25px;
+
 	
-	
-}
-.inhoud{
-	width: 90%;
-	margin-top: -50px;
-	padding-top: 60px;
-	margin-right:auto;
-    margin-left: auto;	
-    margin-bottom: 80px;	
-	float: left;
 }
 
 
-.imageleft{
+/* This makes the images scale to the full width of the page */
 
-	width: 10%;
-	margin-top: 10px;
-    margin-left: 10px;	
-  
-	font-family: 'Work Sans', sans-serif;	
-	font-size: 16px;
-	letter-spacing:1px;
-	line-height: 18pt;	
-	float: left;
+#headerimg {
+  position: relative; 
+  margin-left: 0px;  
+  width: 100%; 
+  margin-top: 300px;
 }
 
-.imageright{
-
-	width: 10%;
-	margin-top: 10px;
-    margin-right: 10px;	
-  
-	font-family: 'Work Sans', sans-serif;	
-	font-size: 16px;
-	letter-spacing:1px;
-	line-height: 18pt;	
-	float: right;
+#headerimg img { 
+  margin: auto; 
+  min-width: 100%;
 }
 
-.bijschrift{
-	color: #898989;
-	width: 250px;
-	font-size: 10px;
-	line-height: 10pt;
-	margin-top: 0px;	
-	margin-left: auto;	
-	margin-right: auto;	
-	text-align: center;
 
+img.noscale {
+    width: inherit;
 }
+
+
+
+
+
+
 
 
 
@@ -269,59 +396,71 @@ body {
 
 header {
     font-size: 10px;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Helvetica', sans-serif;
 	margin-left: 0px;
 }
 
 nav{
-	width: 250px;
+	width: 140px;
 	position: fixed;
 	font-size: 10px;
 	line-height: 8px;
-	left: 0px;
+	left: 5px;
 	text-align: left;
+	border: solid black 1px;
 	text-transform: uppercase;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Helvetica', sans-serif;
 	letter-spacing: 0.04em;
-	top: 10px;
+	top: 5px;
 	
 }
-
 footer{
 	display: block;
+	font-size: 10px;
 	position: fixed;
 	bottom: 10px;
-	left: 110px;
+	right: 10px;
+	border: solid black 1px;
+	padding:5px;
 }
 
-
+img {
+    width:70%;
+    display: block;
+    height: auto;
+    margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-right: 80px;
+}
 
 titel{
 	font-family: Helvetica, sans-serif;
-	font-weight: bold;
+	font-weight: normal;
 	display: inherit;
 	text-align: center;
-	color: white;
-	margin-top: -230px;
-	border: solid white 2px;
-	font-size: 40px;
+	color: blue;
+	margin-top: 10%;
+	font-size: 50px;
 	width: 60%;
 	margin-bottom: 0px;
-	line-height: 48px;
+	line-height: 53px;
 	text-transform: uppercase;;
 	letter-spacing: 0.04em;
-	transform: rotate(6deg);
+	transform: rotate(0deg);
 	margin-right:auto;
     margin-left: auto;
 }
 
-ondertitel {
-	font-family: Helvetica, sans-serif;
+ondertitel{
+	font-family: 'Lora';
 	font-weight: bold;
 	display: block;
-	color: white;
+	color: black;
 	text-align: center;
-	border: solid white 2px;
+	border: solid blue 1px;
+	background-color: white;
 	margin-top: 50px;
 	width: 70%;
 	font-size: 25px;
@@ -329,13 +468,50 @@ ondertitel {
 	line-height: 35px;
 	text-transform: uppercase;;
 	letter-spacing: 0.04em;
-	transform: rotate(-6deg);
+	transform: rotate(0deg);
 	margin-right:auto;
     margin-left: auto;
 }
 
+about{
+	width: 160px;
+	position: fixed;
+	font-size: 9px;
+	line-height: 11px;
+	right: -35px;
+	top: 55px;
+	text-align: left;
+	/*border: solid blue 2px;*/
+	text-transform: uppercase;
+	font-family: Helvetica, sans-serif;
+	letter-spacing: 0.04em;
+	z-index: 999;
+	    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg); 
+    transform: rotate(90deg);
+	
+	
+}
 
-
+.image{
+	margin-top: 15px;
+    margin-left: 100px;
+    margin-right: 15px;		
+    margin-bottom: 15px;		
+	float: left;
+}
+.bijschrift {
+	color: black;
+	font-family: 'Lora', sans-serif;
+	font-size: 10px;
+	line-height: 10pt;
+	width: 200px;
+	margin-top: 0px;	
+	margin-left: auto;	
+	margin-right: auto;	
+	text-align: center;
+	
+}
 
 article {
 	margin-top: 25px;
@@ -370,15 +546,15 @@ h1{
 
 h2{
 	margin-top: 0px;
-	font-size: 20px;
-	color: black;
+	font-size: 30px;
+	color: blue;
 	width: 50%;
 	
 }
 
 h3{
 	font-size: 15px;
-	color: black;
+	color: blue;
 	width: 50%;
 	margin-bottom: 30px;
 }
@@ -397,6 +573,7 @@ blockquote {
 
 
 
+
 ul, ol {
     padding-left: 20px;
 }
@@ -409,14 +586,14 @@ a{
 
 
 a:hover{
-	color: black;	
+	color: blue;	
 	border-bottom: 1px solid black;
 } 
 a:visited{
 	color:black;
 }
 a:active {
-    color: gray;
+    color: blue;
 }
 
 p {
@@ -432,8 +609,14 @@ p {
 
 
 
-	
-}
+
+
+
+
+
+
+
+
 
 
 
@@ -458,15 +641,19 @@ nav{
 	position: absolute;
 	width: 120px;
 	margin-top:0px;
-	font-size: 15px;
+	font-size: 10px;
 	color: black;
 	font-family: Helvetica, sans-serif;
 }
-
 footer{
-display: none;
+	display: block;
+	font-size: 10px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	border: solid black 1px;
+	padding:5px;
 }
-
 img {
     width:100%;
     display: block;
@@ -481,38 +668,71 @@ titel{
 	font-family: Helvetica, sans-serif;
 	display: inherit;
 	text-align: center;
-	color: white;
+	color: blue;
 	font-weight: 200;
-	margin-top: -90px;
-	border: solid white 1px;
-	font-size: 18px;
-	width: 90%;
+	margin-top: auto;
+	font-size: 30px;
+	width: 70%;
 	margin-bottom: 0px;
-	line-height: 22px;
+	line-height: 28px;
 	text-transform: uppercase;;
 	letter-spacing: 0.04em;
+	transform: rotate(0deg);
 	margin-right:auto;
     margin-left: auto;
 }
 
 ondertitel{
 	font-family: Helvetica, sans-serif;
-	font-weight: 200;
+	font-weight: normal;
 	display: block;
-	color: white;
+	color: black;
 	text-align: center;
-	border: solid white 1px;
-	margin-top: 10px;
+	border: solid blue 1px;
+	margin-top: auto;
 	width: 60%;
-	font-size: 15px;
+	font-size: 13px;
 	margin-bottom: -10px;
-	line-height: 17px;
+	line-height: 16px;
 	text-transform: uppercase;;
 	letter-spacing: 0.04em;
+	transform: rotate(0deg);
 	margin-right:auto;
     margin-left: auto;
 }
 
+about{
+	width: 160px;
+	position: fixed;
+	font-size: 7px;
+	line-height: 10px;
+	right: -35px;
+	top: 55px;
+	text-align: left;
+	/*border: solid blue 2px;*/
+	text-transform: uppercase;
+	font-family: Helvetica, sans-serif;
+	letter-spacing: 0.04em;
+	z-index: 999;
+	    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg); 
+    transform: rotate(90deg);
+	
+	
+}
+
+.image{
+	width: 25%;
+	margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 15px;		
+    margin-bottom: 0px;		
+	float: left;
+}
+.bijschrift {
+	 display: none;
+	
+}
 
 article {
 	margin-top: 25px;
@@ -544,7 +764,7 @@ h1{
 h2{
 	margin-top: 0px;
 	font-size: 20px;
-	color: black;
+	color: blue;
 	width: 80%;
 	margin-bottom: -20px;
 	margin-top: 10px;
@@ -553,13 +773,13 @@ h2{
 
 h3{
 	font-size: 15px;
-	color: black;
+	color: blue;
 	width: 80%;
 	
 }
 
 blockquote {
-	font-family: 'Helvetica', sans-serif;
+	font-family: 'Note Sans', sans-serif;
 	font-size: 12px;
 	margin: 0px auto;
 	margin-bottom: 30px;
@@ -584,19 +804,19 @@ a{
 }
 
 a:hover{
-	color: black;	
+	color: blue;	
 } 
 a:visited{
 	color:black;
 }
 a:active {
-    color: gray;
+    color: blue;
 }
 
 p {
 	font-size: 12px;
-    margin-top: 0;
-	line-height: 1.8;
+    margin-top: 1px;
+	line-height: 1.7;
 	margin-bottom: 25px;
 	margin-left: 30px;
 	width: 90%;
@@ -608,6 +828,15 @@ p {
 	
 }
 
+
+
+
+
+
+
+
+
+
 /* eind test */
 
 /* @media only screen and (min-width: 46em) {
@@ -618,25 +847,63 @@ p {
 	body{
 		background-color: none;
 	}
-    /**
-     * When printing, the header is useful but it doesnâ€™t need
-     * to be so big
-     */
+
     header h1, h2{
-        font-size: 18pt;
+        font-size: 15pt;
         font-weight: normal;
     } 
 	article {
 		margin-left: 200px;
-		margin-right: -300px;
-		font-size: 12pt;
+		margin-right: -200px;
+		font-size: 13pt;
 	}
-    /* And the navigation we donâ€™t need */
+
+	.image{
+	width:250px;
+	height:auto;
+	margin-top: 10px;
+    margin-left: -100px;
+    margin-right: 10px;		
+    margin-bottom: 10px;		
+	float: left;
+}
+.imageright{
+	width:250px;
+	height:auto;
+	margin-top: 10px;
+    margin-left: 10px;
+    margin-right: -100px;		
+    margin-bottom: 10px;		
+	float: right;
+}
+ .bijschrift {
+	color: black;
+	font-family: 'Lora', sans-serif;
+	font-size: 8px;
+	line-height: 10pt;
+	width: 160px;
+	margin-top: 0px;	
+	margin-left: auto;	
+	margin-right: auto;	
+	text-align: center;
+	
+}
+#info2{
+ display: none;
+}
+
     nav {
         display: none;
     }
-	#about{
-		font-size: 8pt;
-		line-height: 1.2;
-	}
+
+    footer{
+	display: block;
+	font-size: 10px;
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+	border: solid black 1px;
+	padding:5px;
+}
+
 }
