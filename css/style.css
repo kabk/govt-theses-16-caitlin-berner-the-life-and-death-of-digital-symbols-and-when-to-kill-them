@@ -940,7 +940,7 @@ body {
 }
 
 header {
-    font-size: 10px;
+    font-size: 15px;
 	font-family: 'Arimo', sans-serif;
 	margin-left: 0px;
 }
@@ -951,7 +951,7 @@ nav{
 
 footer{
 	display: block;
-	font-size: 10px;
+	font-size: 15px;
 	position: fixed;
 	bottom: 10px;
 	right: 10px;
