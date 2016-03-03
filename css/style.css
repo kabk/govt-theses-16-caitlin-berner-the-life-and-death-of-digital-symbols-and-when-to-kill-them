@@ -916,25 +916,15 @@ p {
 }
 
 
-@media screen and (max-width: 600px) {
+
+
+@media screen and (min-width: 300px) and (max-width: 700px) {	
+
+
 #maintext {
 
-	width:80%;
+width:80%;
 }
-
-
-.quote {
-
-    width:60%;
-margin-left:auto;
-margin-right:auto;
-}
-
-}
-
-
-@media screen and (min-width: 300px) and (max-width: 800px) {	
-
 	titel{
 		font-size:30px;
 	width: 100%;
@@ -989,6 +979,13 @@ img {
 	border: 1px solid blue;	
 	background-color:white;
 }
+.quote {
+
+    width:60%;
+margin-left:auto;
+margin-right:auto;
+}
+
 h2{
 	width: 80%;
 }
