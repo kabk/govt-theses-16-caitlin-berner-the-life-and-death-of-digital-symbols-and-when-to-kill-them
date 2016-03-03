@@ -992,6 +992,10 @@ img {
 h2{
 	width: 80%;
 }
+h3{
+	width:100%;
+	text-indent: 5px;
+}
 h5{
 	width:80%;
 	color:blue;
