@@ -936,7 +936,7 @@ margin-right:auto;
 @media screen and (min-width: 300px) and (max-width: 800px) {	
 
 	titel{
-		font-size:30;
+		font-size:30px;
 	width: 100%;
 }
 
@@ -993,9 +993,11 @@ h2{
 	width: 80%;
 }
 h3{
+	font-size:15px;
 	width:100%;
 	text-indent: 5px;
 }
+
 h5{
 	width:80%;
 	color:blue;
