@@ -366,7 +366,7 @@ a:active {
 p {
 	font-size: 21px;
     margin: 0px auto;
-	width: 50%;
+	width: 100%;
 	line-height: 1.6;
 	margin-bottom: 25px;
 
@@ -400,7 +400,7 @@ img.noscale {
 
 
 
-@media screen and (min-width: 701px) and (max-width: 1000px){
+@media screen and  (max-width: 1200px){
 body {
     padding: 0px 0px 0px 0px;	
 	background-color: #ffffff;
@@ -671,9 +671,6 @@ p {
 }
 
 
-
-
-/* test tweede media, tussengrootte */
 
 
 @media screen and (max-width: 700px) {
