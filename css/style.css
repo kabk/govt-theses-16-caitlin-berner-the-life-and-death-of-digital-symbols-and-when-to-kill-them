@@ -681,7 +681,7 @@ body {
 
 header {
     font-size: 10px;
-	font-family: 'Helvetica', sans-serif;
+	font-family: 'Arimo', sans-serif;
 	margin-left: 0px;
 }
 
@@ -692,7 +692,7 @@ nav{
 	margin-top:0px;
 	font-size: 10px;
 	color: black;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Arimo', sans-serif;
 }
 footer{
 	display: block;
@@ -843,8 +843,9 @@ p {
 }
 
 
-	 
-
+@media only screen and (max-device-width: 480px) {
+HIER INVULLEN VOOR MOBIEEEEL!!
+}
 
 
 
