@@ -1041,8 +1041,12 @@ right:10px;
 background-color: white;
 border: solid black 1px;
 padding:5px;
+}
 
-
+#sources {
+	font-size: 10px;
+	width:80%;
+	border: solid black 1px;
 }
 
 }
