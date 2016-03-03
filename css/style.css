@@ -148,12 +148,12 @@ img {
 	margin-right:-80px;
 	font-style: normal;
 	color: blue;
-	font-size: 44px;
+	font-size: 24px;
 	border: 2px solid blue;
    	padding: 10px;
     width:600px;
     text-align:right;
-    line-height:50px;
+    line-height:27px;
     float: right;
     background:white;
  	margin-left:10px;
@@ -162,13 +162,11 @@ img {
 
 }
 
-
-
 .maintextinquote{
 	font-family: 'Playfair Display', serif;
-	line-height:27px;
+	line-height:21px;
 	font-style: italic;
-	font-size: 21px;
+	font-size: 1.5;
 }
 
 #maintext {
@@ -620,7 +618,7 @@ h1, h2, h3, h4,h5, h6 {
 
 h2{
 	margin-top: 0px;
-	font-size: 30px;
+	font-size: 40px;
 	color: white;
 	width: 50%;
 	transform: rotate(0deg);
@@ -628,10 +626,11 @@ h2{
 }
 
 h3{
-	font-size: 15px;
+	font-size: 25px;
 	color: blue;
-	width: 50%;
+	width: 80%;
 	margin-bottom: 30px;
+	text-indent:1px;
 }
 
 
