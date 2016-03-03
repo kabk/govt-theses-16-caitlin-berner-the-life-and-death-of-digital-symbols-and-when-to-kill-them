@@ -399,28 +399,6 @@ img.noscale {
 
 
 
-@media screen and (min-width: 990px) and (max-width: 1000px){
-body {
-    padding: 0px 0px 0px 0px;	
-	background-color: #ffffff;
-}
-h2{
-	margin-top: 0px;
-	font-size: 30px;
-	color: white;
-	width: 50%;
-	transform: rotate(0deg);
-	
-}
-}
-
-
-
-
-
-
-
-
 
 @media screen and (min-width: 701px) and (max-width: 1000px){
 body {
@@ -695,16 +673,6 @@ p {
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* test tweede media, tussengrootte */
 
 
@@ -844,21 +812,6 @@ h3{
 	
 }
 
-blockquote {
-	font-family: 'Note Sans', sans-serif;
-	font-size: 12px;
-	margin: 0px auto;
-	margin-bottom: 30px;
-	width: 70%;
-	font-style: italic;
-	line-height: 1.6;
-	position: relative;
-	color: #000000;
-}
-
-
-
-
 ul, ol {
     padding-left: 20px;
 }
@@ -894,26 +847,6 @@ p {
 
 
 	 
-@media screen (min-width: 360px) and (max-width: 1290px) {	
-	body, html {
-	margin-top: 45px;
-	margin-bottom: 0px;
-	padding-right: 0%;
-	padding-left: 35px;
-	}
-
-
-
-@media screen and (min-width: 300px) and (max-width: 360px) {	
-	 	body, html {
-	margin-top: 45px;
-	margin-bottom: 0px;
-	padding-right: 5px;
-	padding-left: 16px;
-	
-	}
-
-
 
 
 
