@@ -183,6 +183,16 @@ img {
 	border: solid black 2px;
 }
 
+#sources {
+	font-family: "Playfair Display", serif;
+	font-size: 12px;
+	width:50%;
+	margin:0px auto;
+	padding:25px;
+	line-height: 1.5;
+	margin-bottom: 25px;
+	border: solid black 2px;
+}
 
 #info2 {
 font-family:'Arimo', sans-serif;
@@ -925,14 +935,22 @@ p {
 
 width:80%;
 }
-	titel{
-		font-size:30px;
+
+titel{
+	font-size:30px;
 	width: 100%;
 }
 
 ondertitel{
 border:none;
 }
+
+
+#archive {	
+display:none;
+	
+}
+
 
 img {
     width:90%;
